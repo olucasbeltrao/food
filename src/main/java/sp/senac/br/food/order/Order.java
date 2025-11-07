@@ -21,5 +21,15 @@ public class Order {
     @Enumerated(EnumType.STRING)
     private OrderStatus status;
 
+    public Long getId() {
+        return id;
+    }
 
+    public String getProduct() {
+        return product;
+    }
+
+    public OrderStatus getStatus() {
+        return status;
+    }
 }
